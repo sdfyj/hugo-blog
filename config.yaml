@@ -2,14 +2,15 @@ baseURL : "http://fanyingjie.com/"
 languageCode : "en-us"
 title : "fanyingjie"
 
-theme: "hugo-ivy"
-googleAnalytics: "UA-1988641-2"
+#theme: "hugo-ivy"
+theme: "hyde"
+#googleAnalytics: "UA-1988641-2"
 disqusShortname: "yingjie"
-ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
+#ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
 hasCJKLanguage: true
 enableEmoji: true
-footnotereturnlinkcontents: "↩"
-rssLimit: 100
+#footnotereturnlinkcontents: "↩"
+#rssLimit: 100
 
 permalinks:
   cn: "/cn/:year/:month/:slug/"
@@ -61,25 +62,25 @@ params:
   description: "Personal website of Yingjie Fan"
   footer: "&copy; [Yingjie Fan](/) 2019 - "
   disqusURL: "http://fanyingjie.com/"
-  customJS:
-    - "js/fix-toc.js"
-    - "js/center-img.js"
-    - "js/right-quote.js"
-    - "js/no-highlight.js"
-    - "js/fix-footnote.js"
-    - "js/math-code.js"
-    - "js/external-link.js"
-    - "js/alt-title.js"
-    - "js/header-link.js"
+  #customJS:
+  #  - "js/fix-toc.js"
+  #  - "js/center-img.js"
+  #  - "js/right-quote.js"
+  #  - "js/no-highlight.js"
+  #  - "js/fix-footnote.js"
+  #  - "js/math-code.js"
+  #  - "js/external-link.js"
+  #  - "js/alt-title.js"
+  #  - "js/header-link.js"
 
   githubContentURL: "https://github.com/sdfyj/hugo-blog/edit/master/content/"
   twitterImage: "/images/logo.png"
 
   # options for highlight.js (version, additional languages, and theme)
-  highlightjsVersion: "9.12.0"
-  highlightjsCDN: "//cdn.bootcss.com"
-  highlightjsLang: ["r", "yaml", "tex"]
-  highlightjsTheme: "github"
+  #highlightjsVersion: "9.12.0"
+  #highlightjsCDN: "//cdn.bootcss.com"
+  #highlightjsLang: ["r", "yaml", "tex"]
+  #highlightjsTheme: "github"
 
   logo:
     en:
@@ -92,14 +93,14 @@ params:
     en: ""
     cn: ""
 
-  lang:
-    edit:
-      cn: "编辑"
-    license:
-      cn: "版权"
-    subscribe:
-      cn: "订阅"
+  #lang:
+  #  edit:
+  #    cn: "编辑"
+  #  license:
+  #    cn: "版权"
+  #  subscribe:
+  #    cn: "订阅"
 
-blackfriday:
-    extensionsmask: ["noIntraEmphasis"]
-    fractions: false
+#blackfriday:
+#    extensionsmask: ["noIntraEmphasis"]
+#    fractions: false
