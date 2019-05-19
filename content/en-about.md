@@ -1,7 +1,6 @@
 ---
-title: "En About"
-date: 2019-05-15T17:53:03+08:00
-#draft: true
+title: "about"
+slug: "en/about"
 ---
 
 en-about
