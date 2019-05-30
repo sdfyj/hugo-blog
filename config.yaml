@@ -1,25 +1,20 @@
-baseURL : "http://fanyingjie.com/"
-#baseURL : "http://localhost:1313/"
-languageCode : "en-us"
-title : "fanyingjie"
-copyright: Everything is mine
-#theme: "hugo-ivy"
-theme: "hyde"
-
+#baseurl: "http://fanyingjie.com/"
+baseurl: "http://localhost:1313/"
+languageCode: "en-us"
+title: "fyj"
+theme: "hugo-ivy"
 googleAnalytics: "UA-1988641-2"
-#disqusShortname: "yingjie"
-#ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
-
-metaDataFormat: "yaml"
+#disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
 hasCJKLanguage: true
 enableEmoji: true
-pygmentsStyle: "default"   #代码高亮选择
-#footnotereturnlinkcontents: "↩"
-#rssLimit: 100
+footnotereturnlinkcontents: "↩"
+rssLimit: 100
 
 permalinks:
   cn: "/cn/:year/:month/:slug/"
   en: "/en/:year/:month/:slug/"
+
 
 menu:
   main:
@@ -29,12 +24,18 @@ menu:
     - name: "Blog"
       url: "/en/"
       weight: 2
+    - name: "Categories"
+      url: "/categories/"
+      weight: 3    
+    - name: "Tags"
+      url: "/tags/"
+      weight: 4       
     - name: "关于"
       url: "/cn/about/"
-      weight: 3
+      weight: 5
     - name: "博客"
       url: "/cn/"
-      weight: 4
+      weight: 6
   en:
     - name: "Home"
       url: "/"
@@ -45,9 +46,15 @@ menu:
     - name: "Blog"
       url: "/en/"
       weight: 3
+    - name: "Categories"
+      url: "/categories/"
+      weight: 4   
+    - name: "Tags"
+      url: "/tags/"
+      weight: 5
     - name: "中文"
       url: "/cn/"
-      weight: 4
+      weight: 6
   cn:
     - name: "首页"
       url: "/"
@@ -58,48 +65,51 @@ menu:
     - name: "博客"
       url: "/cn/"
       weight: 3
+    - name: "分类"
+      url: "/categories/"
+      weight: 4   
+    - name: "标签"
+      url: "/tags/"
+      weight: 5
     - name: "English"
       url: "/en/"
-      weight: 4
-
+      weight: 6
+  
 
 params:
-  themeColor: "theme-base-0b"
-  # layoutReverse: true
-  description: "Personal website of Yingjie Fan"
-  #cover: "/images/logo.png"
-  footer: "&copy; [Yingjie Fan](/) 2019 - "
-  #disqusURL: "http://fanyingjie.com/"
-  #customJS:
-  #  - "js/fix-toc.js"
-  #  - "js/center-img.js"
-  #  - "js/right-quote.js"
-  #  - "js/no-highlight.js"
-  #  - "js/fix-footnote.js"
-  #  - "js/math-code.js"
-  #  - "js/external-link.js"
-  #  - "js/alt-title.js"
-  #  - "js/header-link.js"
-
-  #githubContentURL: "https://github.com/sdfyj/hugo-blog/edit/master/content/"
-  #twitterImage: "/images/logo.png"
+  description: "Personal website of fyj"
+  footer: "&copy; [fyj](/) 2019-"
+  #disqusURL: ""
+  customJS:
+    - "js/fix-toc.js"
+    - "js/center-img.js"
+    - "js/right-quote.js"
+    - "js/no-highlight.js"
+    - "js/fix-footnote.js"
+    - "js/math-code.js"
+    - "js/external-link.js"
+    - "js/alt-title.js"
+    - "js/header-link.js"
+ # githubContentURL: ""
+ # twitterImage: "/images/logo.png"
 
   # options for highlight.js (version, additional languages, and theme)
-  #highlightjsVersion: "9.12.0"
-  #highlightjsCDN: "//cdn.bootcss.com"
-  #highlightjsLang: ["r", "yaml", "tex"]
-  #highlightjsTheme: "github"
+  highlightjsVersion: "9.12.0"
+  highlightjsCDN: "//cdn.bootcss.com"
+  highlightjsLang: ["r", "yaml", "tex"]
+  highlightjsTheme: "github"
 
-  #logo:
-  #  en:
-  #    img: "/images/logo.png"
-  #    url: "/"
-  #    alt: "FYJ"
-  #    tag: ""
+  logo:
+    en:
+      img: "/images/logo.png"
+      url: "/"
+      alt: ""
+      tag: ""
 
-  #author:
- #   en: ""
- #   cn: ""
+
+  author:
+    en: "fyj"
+    cn: "fyj"
 
   #lang:
   #  edit:
@@ -107,8 +117,8 @@ params:
   #  license:
   #    cn: "版权"
   #  subscribe:
-  #    cn: "订阅"
+#    cn: "订阅"
 
-#blackfriday:
-#    extensionsmask: ["noIntraEmphasis"]
-#    fractions: false
+blackfriday:
+    extensionsmask: ["noIntraEmphasis"]
+    fractions: false
