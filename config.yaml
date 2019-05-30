@@ -78,7 +78,7 @@ menu:
 
 params:
   description: "Personal website of fyj"
-  footer: "&copy; [fyj](/) 2019-"
+  footer: "&copy; [fyj](/) 2019-2019 [京ICP备19023380号](http://www.beian.miit.gov.cn)"
   #disqusURL: ""
   customJS:
     - "js/fix-toc.js"
