@@ -1,7 +1,7 @@
 #baseurl: "http://fanyingjie.com/"
 baseurl: "http://localhost:1313/"
 languageCode: "en-us"
-title: "fyj"
+title: "fyj的个人网站"
 theme: "hugo-ivy"
 googleAnalytics: "UA-1988641-2"
 #disqusShortname: ""
@@ -78,7 +78,7 @@ menu:
 
 params:
   description: "Personal website of fyj"
-  footer: "&copy; [fyj](/) 2019-2019 [京ICP备19023380号](http://www.beian.miit.gov.cn)"
+  footer: "&copy; 2019 [fyj](/) [京ICP备19023380号](http://www.beian.miit.gov.cn)"
   #disqusURL: ""
   customJS:
     - "js/fix-toc.js"
