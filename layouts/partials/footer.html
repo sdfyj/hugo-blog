@@ -1,0 +1,24 @@
+  <footer>
+  {{ partial "foot_custom.html" . }}
+  {{ partial "footer_highlightjs" . }}
+  {{ with .Site.Params.footer }}
+  <hr>
+  <div class="copyright">{{ . | markdownify }}</div>
+  <div style="width:380px; margin:0 auto; padding:0px 0;">
+  <a target="_blank" href="http://www.beian.miit.gov.cn" 
+  style="text-decoration:none;height:20px;line-height:0px;">
+  <img src="" style="float:left;"/>
+  <p style="float:left;height:10px;line-height:25px;margin: 0px 10px 0px 0px;">
+  京ICP备19023380号</p></a>
+  <a target="_blank" href="http://www.beian.gov.cn" 
+  style="text-decoration:none;height:20px;line-height:0px;">
+  <img src="/images/备案图标.png" style="float:left;"/>
+  <p style="float:left;height:10px;line-height:25px;margin: 0px 0px 0px 0px;">
+  京公网安备11010802028916号</p></a>
+  </div>
+  {{ end }}
+  </footer>
+  </article>
+  {{ template "_internal/google_analytics.html" . }}
+  </body>
+</html>
