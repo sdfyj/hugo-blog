@@ -74,3 +74,22 @@ slug: statistic_concept
 
 **拟合（Fitting）：** 一种把现有数据通过数学方法来代入一套公式的表示方法。通常基于数据，用一个连续的函数或者更加密集的离散方程与已知的数据相吻合。（维基百科）
 
+**归纳（Induction）：** 对事物特殊的代表进行有限观察，把性质或关系归结到类型，或基于对反复再现的现象的模式进行有限观察，总结出公式或规律。（维基百科）
+
+**演绎（Deduction）：** 从前提中必然地得出结论的推理，如果前提为真，则结论必然为真。（维基百科）
+
+**双盲实验：** 实验者和参与者都不知道谁属于控制组谁属于实验组，旨在消除可能出现在实验者和参与者意识当中的主观偏差和个人偏好。
+
+**科学（Science）：** 是通过经验实证的方法，对现象（原来指自然现象，现泛指包括社会现象等现象）进行归因的学科。（维基百科）
+
+**哲学（Philosophy）：** 是对普通的和基本的问题的研究，这些问题通常和存在、知识、价值、理性、心灵、语言等有关。（维基百科）
+
+**随机变量（Random Variable）：** 设`$(\Omega,\mathcal{F},P)$`是概率空间，`$X(\omega)$`是`$\Omega$`上的实值函数，若对每个实数`$x$`，`$\{\omega|X(\omega)<x\}\in \mathcal{F}$`，则称`$X(\omega)$`为`$(\Omega,\mathcal{F},P)$`上的随机变量，也记为`$X$`。
+
+**分布函数（Distribution Function）：** 对随机变量`$X(\omega)$`，称`$F(x)=P\{X(\omega) \leq x\}$`,`$-\infty<x<\infty$`为其分布函数。
+
+**离散型随机变量（Discrete Random Variable）：** 设`$X$`是概率空间`$(\Omega,\mathcal{F},P)$`中的随机变量，如果`$X$`只取有限或可列无穷多个值，则为离散型随机变量。
+
+**连续型随机变量（Continuous Random Variable）：** 设`$X$`是概率空间`$(\Omega,\mathcal{F},P)$`上的随机变量，`$F(x)$`为其分布函数，如果存在定义在`$(-\infty, \infty)$`上的非负实值函数`$f(x)$`，使得`$F(x)=\int^x_{-\infty}f(y)dy,-\infty<x<\infty$`，则称`$X$`为连续型随机变量，称`$f(x)$`为`$X$`的概率密度函数，简称为概率密度。
+
+**随机过程（Stochastic Process）：** 设`$(\Omega,\mathcal{F},P)$`为概率空间，另设集合`$\mathcal{T}$`为一个指标集合，如果对于所有`$t\in \mathcal{T}$`，均有一个随机变量`$X_t(\omega)$`定义于概率空间`$(\Omega,\mathcal{F},P)$`，则集合`$\{X_t(\omega)|t\in \mathcal{T}\}$`为一个随机过程。
