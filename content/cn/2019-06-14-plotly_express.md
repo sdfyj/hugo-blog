@@ -10,4 +10,4 @@ tags:
 slug: plotly_express
 ---
 
-[使用 Plotly Express 轻松地进行数据可视化](https://www.cnblogs.com/lemonbit/p/10593188.html)
+[Python 可视化神器：Plotly Express 入门之路](http://liyangbit.com/pythonvisualization/Plotly-Express-introduction-cn/)
