@@ -2,7 +2,7 @@
 title: "A Very Short History Of Big Data"
 date: 2019-06-20
 categories:
-  - 统计方法
+  - 统计学方法
 tags:
   - 数据科学
 slug: his_bigdata

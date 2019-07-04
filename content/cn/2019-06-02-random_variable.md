@@ -2,7 +2,7 @@
 title: "随机变量的定义"
 date: 2019-06-02
 categories:
-  - 统计方法
+  - 统计学方法
 tags:
   - 统计
 slug: random_variable

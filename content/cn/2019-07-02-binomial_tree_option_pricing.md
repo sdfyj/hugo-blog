@@ -2,8 +2,8 @@
 title: "二叉树期权定价模型"
 date: 2019-07-02
 categories:
-  - 金融投资
-  - 统计方法
+  - 金融与投资
+  - 统计学方法
 tags:
   - 期权
 slug: binomial_tree_option_pricing

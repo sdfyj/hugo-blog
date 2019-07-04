@@ -2,7 +2,7 @@
 title: "与统计学相关的一些概念"
 date: 2019-06-02
 categories:
-  - 统计方法
+  - 统计学方法
 tags:
   - 统计
 slug: statistic_concept

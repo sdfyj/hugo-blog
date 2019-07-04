@@ -2,7 +2,7 @@
 title: "The Data Science Venn Diagram"
 date: 2019-06-20
 categories:
-  - 统计方法
+  - 统计学方法
 tags:
   - 数据科学
 slug: venn_datascience

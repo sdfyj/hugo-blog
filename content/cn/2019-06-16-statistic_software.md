@@ -2,7 +2,7 @@
 title: "常见的统计分析软件"
 date: 2019-06-16
 categories:
-  - 统计方法
+  - 统计学方法
 tags:
   - 统计
 slug: statistic_software
