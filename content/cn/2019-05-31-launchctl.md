@@ -32,6 +32,12 @@ vi run.sh
 添加执行helloworld.py的命令
 ```cmd
 #!/bin/sh
+
+LANG=zh_CN.UTF-8
+#支持中文输出
+#LANG=en_US.UTF-8
+export LANG
+
 # 记录一下开始时间
 echo `date` >> /Users/demo/log &&
 # 进入helloworld.py程序所在目录

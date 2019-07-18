@@ -47,13 +47,14 @@ iframe, twitterwidget, video {
   margin: auto;
 }
 #TableOfContents {
-  background-color: #f8f8f8;
+  background-color: #FFF8DC;
   padding: .5em;
 }
 table {
-  min-width: 50%;
+  width: 100%;
   max-width: 100%;
-  margin: auto;
+  min-width: 100%;
+  border-collapse: collapse;
 }
 pre .nohighlight {
   background-color: transparent;
