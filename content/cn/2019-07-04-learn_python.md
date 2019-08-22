@@ -3,6 +3,7 @@ title: "python学习网站"
 date: 2019-07-04
 categories:
   - 计算机编程
+  - 书单
 tags:
   - python
 slug: learn_python

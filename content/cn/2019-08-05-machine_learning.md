@@ -3,6 +3,7 @@ title: "机器学习网站"
 date: 2019-08-05
 categories:
   - 统计学方法
+  - 书单
 tags:
   - 统计
   - 机器学习
