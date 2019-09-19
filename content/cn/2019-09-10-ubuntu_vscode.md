@@ -1,0 +1,55 @@
+---
+title: "ubuntu下安装vscode"
+date: 2019-09-10
+categories:
+  - 计算机编程
+tags:
+  - ubuntu
+slug: ubuntu_vscode
+---
+
+环境ubuntu 16.04
+
+先安装ubuntu-make
+```cmd
+sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+sudo apt-get update
+sudo apt-get install ubuntu-make
+```
+如果apt install 出现如下错误：
+```cmd
+E:Could not get lock /var/lib/dpkg/lock - open (11:Resource temporarily unavailable)
+E: Unable to lock the administration directory,is another process using it?
+```
+问题原因，apt还在运行
+
+解决方法：杀死所有apt进程
+
+1、查找apt相关进程，命令杀死
+```cmd
+ps afx|grep apt
+sudo kill -9 ****
+```
+2、删除锁定文件
+
+锁定的文件会阻止 Linux 系统中某些文件或者数据的访问，这个概念也存在于 Windows 或者其他的操作系统中。一旦你运行了 apt-get 或者 apt 命令，锁定文件将会创建于 /var/lib/apt/lists/、/var/lib/dpkg/、/var/cache/apt/archives/ 中。这有助于运行中的 apt-get 或者 apt 进程能够避免被其它需要使用相同文件的用户或者系统进程所打断。当该进程执行完毕后，锁定文件将会删除。
+
+所以：
+
+1：移除对应目录下的锁文件：2：强制重新配置软件包：3：更新软件包源文件：
+```cmd
+sudo rm /var/lib/dpkg/lock
+sudo dpkg --configure -a
+sudo apt update
+```
+ubuntu-make 安装后安装vscode
+
+```cmd
+sudo umake ide visual-studio-code
+```
+安装目录一般在 ~/.local/share/umake/ide/visual-studio-code
+
+打开软件
+~/.local/share/umake/ide/visual-studio-code/code
+右键lock to launcher固定图标
+
