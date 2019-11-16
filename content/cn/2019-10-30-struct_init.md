@@ -65,8 +65,8 @@ struct MyStruct{
 
 ```c++
 struct MyStruct structVar={
-    .x=1;
-    .y=2;
+    .x=1,
+    .y=2
 };
 ```
 
@@ -74,8 +74,8 @@ struct MyStruct structVar={
 
 ```c++
 struct MyStruct structVar={
-    x:1;
-    y:2;
+    x:1,
+    y:2
 };
 ```
 
@@ -148,7 +148,7 @@ structVar.x=1;
 structVar.y=2;
 ```
 
-赋值3： 
+赋值3
 
 使用已有的结构体变量给另一个结构体变量赋值。也就是说结构体变量之间是可以相互赋值的。
 
